@@ -1,0 +1,16 @@
+/* ASIDE */
+
+.aside {
+    height: 100vh;
+    background: var(--color-dark);
+    color: var(--color-white);
+    position: fixed;
+    width: 90px;
+}
+
+/* タブレットサイズになったら隠す */
+@media (max-width: 768px) {
+    .aside {
+        display: none;
+    }
+}
